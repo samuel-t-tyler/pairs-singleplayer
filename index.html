@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="styles.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Sansita+Swashed&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.20/lodash.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pairs - Singleplayer
+    </title>
+</head>
+<body>
+    <h1 id="titlebutton">Pairs</h1>
+    <div class="gameboard">
+    <div class="instuctions">
+        <h2>Instructions</h2>
+        <p>Match cards as quickly as possible</p>
+        <p>Try and break your record!</p>
+        <p id= "switch">
+            <a href="http://limitless-pairs-m.surge.sh/" style="text-decoration: none; color: #ff8446">Switch to Multiplayer</a>
+        </p>
+    </div>
+    <div class= tiles>
+        <table class="tiles">
+            <tr class="tilerow">
+                <td><img id="r1c1" class="tile" src="./resources/images/blue castle.jpg" draggable="false"></td>
+                <td><img id="r1c2" class="tile" src="./resources/images/blue castle.jpg" draggable="false"></td>
+                <td><img id="r1c3" class="tile" src="./resources/images/blue castle.jpg" draggable="false"></td>
+            </tr>
+            <tr class="tilerow">
+                <td><img id="r2c1" class="tile" src="./resources/images/blue castle.jpg" draggable="false"></td>
+                <td><img id="r2c2" class="tile" src="./resources/images/blue castle.jpg" draggable="false"></td>
+                <td><img id="r2c3" class="tile" src="./resources/images/blue castle.jpg" draggable="false"></td>
+            </tr>
+            <tr class="tilerow">
+                <td><img id="r3c1" class="tile" src="./resources/images/blue castle.jpg" draggable="false"></td>
+                <td><img id="r3c2" class="tile" src="./resources/images/blue castle.jpg" draggable="false"></td>
+                <td><img id="r3c3" class="tile" src="./resources/images/blue castle.jpg" draggable="false"></td>
+            </tr>
+            <tr class="tilerow">
+                <td><img id="r4c1" class="tile" src="./resources/images/blue castle.jpg" draggable="false"></td>
+                <td><img id="r4c2" class="tile" src="./resources/images/blue castle.jpg" draggable="false"></td>
+                <td><img id="r4c3" class="tile" src="./resources/images/blue castle.jpg" draggable="false"></td>
+            </tr>
+        </table>
+        </div>
+        <div class="score1">
+        <table class = "score">
+            <tr>
+                <td class="currenttimetitle" id="player1">Current Time</td>
+            </tr>
+            <tr class="scorecount">
+                <td id="p1stopwatchtime">0 : 00 : 00</td>
+            </tr>
+            <tr class="besttimetitle">
+                <td>Best Time</td>
+            </tr>
+            <tr class="scorecount">
+                <td id="p2stopwatchtime">0 : 00 : 00</td>
+            </tr>
+        </table>
+    </div>
+    </div>
+<script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
